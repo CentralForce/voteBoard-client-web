@@ -1,0 +1,39 @@
+.button {
+  font-size: 17px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #262626;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.button.join {
+  background-image: linear-gradient(to top, #fda085 0%, #f6d365 100%);
+}
+
+.button.add {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.button.submit {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.button.vote {
+  margin-top: 25px;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.button.reset {
+  margin-top: 10px;
+  background-image: linear-gradient(to top, #ff5858 0%, #f09819 100%);
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
