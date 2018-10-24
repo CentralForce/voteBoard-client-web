@@ -1,0 +1,40 @@
+.createRoom.head .titel {
+  font-size: 40px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #ababab;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.createRoom.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.createRoom.content input {
+  font-size: 17px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #262626;
+  background-color: #ababab;
+  padding: 10px;
+  border-radius: 25px;
+  transition: 0.5s;
+  opacity: 0.75;
+  text-align: center;
+  border-style: none;
+  margin-bottom: 10px;
+}
+
+.createRoom.content input:hover {
+  color: #262626;
+  background-color: #dedede;
+}
+
+.createRoom.content input:focus {
+  color: #262626;
+  background-color: #ffffff;
+}
+
