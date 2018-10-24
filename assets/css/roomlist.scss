@@ -1,0 +1,49 @@
+.row {
+  width: calc(100% - 10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  transition: 0.2s;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.row:hover {
+  background-color: #ababab22;
+}
+
+.row .text {
+  font-size: 17px;
+  font-family: "Arial";
+  font-weight: bold;
+  padding: 10px;
+  color: #ababab;
+}
+
+.roomlist.head .titel {
+  font-size: 40px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #ababab;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.row .titel {
+  font-size: 20px;
+  width: 100%;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #ababab;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.roomlist.content {
+  display: flex;
+  flex-direction: column;
+}
+
